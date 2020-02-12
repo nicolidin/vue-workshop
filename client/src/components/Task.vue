@@ -1,5 +1,5 @@
 <template>
-  <div class="Task">{{task}}</div>
+  <div class="Task"></div>
 </template>
 
 <script lang="ts">

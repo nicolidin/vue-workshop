@@ -5,14 +5,10 @@ import Task from "@/models/task"
 
 Vue.use(Vuex);
 
-export class State {
-  taskList: Array<Task> = []
+class State {
 }
 
 const mutations: MutationTree<State> = {
-  async pushNewTask(state: State, task: Task) {
-    state.taskList.push(task)
-  }
 }
 
 const actions: ActionTree<State, any> = {
